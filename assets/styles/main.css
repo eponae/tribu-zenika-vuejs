@@ -1,0 +1,91 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #A2DED0;
+    color: white;
+    font-size: 16px;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+#header {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    justify-content: flex-end;
+}
+
+#header .basket {
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.box-wrapper {
+    margin-top: 60px;
+    padding: 10px;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.box-wrapper .box {
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.box-wrapper .box:last-child {
+    margin-right: 0;
+}
+
+.box {
+    position: relative;
+    display: flex;
+    min-height: 200px;
+    min-width: 200px;
+    flex-direction: column;
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 5px;
+    background: white;
+    color: #BDC3C7;
+}
+
+.box img {
+    justify-content: center;
+}
+
+.box-label {
+    margin-top: 10px;
+}
+
+.box-title:hover {
+    color: #A2DED0;
+    cursor: pointer;
+}
+
+.button-buy {
+    padding: 5px;
+    width: 100px;
+    color: white;
+    background: #A2DED0;
+}
+
+.button-action {
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    cursor: pointer;
+}
+
+.marged {
+    margin-right: 5px;
+}
