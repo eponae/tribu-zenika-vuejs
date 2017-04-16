@@ -1,1 +1,1 @@
-Introduction VueJS par Zenika
+Introduction to VueJS by Zenika
